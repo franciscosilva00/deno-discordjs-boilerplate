@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-read --allow-env --allow-net ./src/main.ts",
+    "deploy": "deno run --allow-read --allow-env --allow-net ./src/deploy.ts"
+  }
+}
