@@ -19,9 +19,39 @@ A minimalistic boilerplate for creating Discord bots using Deno and Discord.js.
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/franciscosilva00/deno-discordjs-boilerplate.git my-discord-bot`
-2. Navigate to the project directory: `cd my-discord-bot`
-3. Install dependencies: `deno cache src/main.ts`
+1. Clone this repository:
+
+```bash
+git clone https://github.com/franciscosilva00/deno-discordjs-boilerplate.git my-discord-bot
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd my-discord-bot
+```
+
+3. Install dependencies:
+
+```bash
+deno cache src/main.ts
+```
+
 4. Rename `.env.example` to `.env` and add your Discord application token and application ID.
-5. Deploy commands: `deno task deploy`
-6. Start the bot with `deno task run`, or `deno task dev` to watch for file changes while you develop.
+5. Deploy commands:
+
+```bash
+deno task deploy
+```
+
+6. Start the bot in development mode, watching for file changes:
+
+```bash
+deno task dev
+```
+
+7. Start the bot
+
+```bash
+deno task run
+```
